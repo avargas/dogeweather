@@ -10,8 +10,8 @@
 		$('#weather-id').text(id);
 		$('#weather-icon').text(icon);
 
-		//TESTING - 
-		icon = "01n";
+		//TESTING 
+		//icon = "01n";
 		//change such doge and sky based on much icon
 		var doge_img = "url(./img/doge/" + icon + ".png)";
 		$('.doge-image').css('background-image', doge_img);

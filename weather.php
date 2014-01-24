@@ -1,6 +1,9 @@
 <?php
 $ip = $_REQUEST['REMOTE_ADDR']; // the IP address to query
 
+//test ip
+//$ip = "180.76.6.19";
+
 $query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
 if($query && $query['status'] == 'success') {
   //get Coords
